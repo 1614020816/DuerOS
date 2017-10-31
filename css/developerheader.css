@@ -1,0 +1,66 @@
+a{
+	color: #fff;
+	font-size: 14px;
+}
+#head{
+	background: #000000;
+	min-width: 1200px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0 80px;
+	line-height: 60px;
+}
+#head .logo img{
+	width: 167px;
+	height: 24px;
+}
+#head .logo span{
+	font-size: 16px;
+	color: #fff;
+}
+#head .logo span:nth-child(2){
+	padding: 0 5px;
+    top: -5px;
+    position: relative;
+}
+#head div.ul-list ul{
+	display: flex;
+	justify-content: space-between;
+}
+#head div.ul-list ul li{
+	padding: 0 25px;
+}
+#head div.ul-list ul li:hover{
+	background: #272727;
+}#head div.ul-list ul li:hover a{
+	color: #0073EA;
+}
+#head div.ul-list ul .solution-left,#head div.ul-list ul .solution-right,#head div.ul-list ul .support-list,#head div.ul-list ul .Snowboy{
+	display: none;
+}
+#head .login-list ul{
+	width: 240px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#head div.ul-list ul>li>div.solution-list{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

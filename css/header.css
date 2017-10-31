@@ -1,0 +1,27 @@
+#header{
+	width: 100%;
+	height: 60px;
+	background: #000;
+	display: flex;
+	justify-content: space-between;
+}
+#header .img img{
+	height: 22px;
+	margin:19px 20px;
+}
+#header .item-list ul{
+	display: flex;
+	justify-content: space-between;
+}
+#header .item-list>ul>li{
+	line-height: 60px;
+	font-size: 14px;
+	padding: 0 25px;	
+	cursor: pointer;
+}
+#header .item-list>ul>li>a{
+	color: #fff;
+}
+#header .item-list>ul>li:hover{
+	background: #333333;
+}

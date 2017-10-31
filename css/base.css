@@ -1,0 +1,42 @@
+/*<!-- 设置页面通用样式 -->*/
+body{
+	font-size:12px ;
+	font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+	color: #333;
+	margin: 0;
+	padding: 0;
+	word-break: break-word;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,pre{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+	color: #787878;
+	outline: none;
+}
+a:hover{
+	color: #0073ea;
+}
+img{
+	vertical-align: baseline;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+iframe{
+	border: none;
+}

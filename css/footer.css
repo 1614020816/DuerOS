@@ -1,0 +1,31 @@
+#footer{
+	background: #000000;
+}
+#footer .foot-main{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 55px  160px 50px 0;
+	box-sizing: border-box;
+}
+#footer .foot-main p{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#footer .foot-main ul li a{
+	font-size: 14px;
+	color: #9c9c9c;
+	line-height: 2;
+}
+#footer>p{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 40px 30px;
+	font-size: 14px;
+	color: #9c9c9c;
+}
+
